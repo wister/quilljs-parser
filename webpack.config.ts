@@ -20,6 +20,7 @@ const config: Configuration = {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
         library: 'quilljs-parser',
+        globalObject: 'this',
         libraryTarget: 'umd'
     },
     plugins: [
